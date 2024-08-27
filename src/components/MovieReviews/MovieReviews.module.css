@@ -1,0 +1,17 @@
+.listReviews {
+  margin-top: 12px;
+  display: flex;
+  flex-direction: column;
+}
+.listItemReview {
+  font-size: 14px;
+  padding: 6px;
+  border-radius: 14px;
+
+  :not(:last-child) {
+    margin-bottom: 12px;
+  }
+}
+.textReview {
+  margin-top: 6px;
+}

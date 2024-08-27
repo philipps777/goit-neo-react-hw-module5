@@ -1,0 +1,41 @@
+.container {
+  margin-top: 150px;
+}
+.section {
+  margin-top: 124px;
+  margin-bottom: 15px;
+  /* background-image: url(../../image/cinema-time-for-movie-poster-vector.jpg);
+  background-position: center;
+  background-size: 700px 700px; */
+}
+.titleHomePage {
+  font-weight: 700;
+  font-size: 36px;
+  margin-top: 20px;
+  margin-bottom: 8px;
+  text-align: center;
+  animation: rainbow 3s infinite linear;
+}
+@keyframes rainbow {
+  0% {
+    color: #ff0000;
+  }
+  17% {
+    color: #ff7f00;
+  }
+  33% {
+    color: #ffff00;
+  }
+  50% {
+    color: #00ff00;
+  }
+  67% {
+    color: #0000ff;
+  }
+  83% {
+    color: #4b0082;
+  }
+  100% {
+    color: #ff0000;
+  }
+}
